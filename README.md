@@ -1,105 +1,33 @@
-# Waveguide-Visualiser
-A lightweight, interactive Streamlit app for visualizing electromagnetic field patterns inside TEM, Rectangular (TE/TM), and Circular (TE/TM) waveguides.
-It’s designed to be simple, clean, and fast: no animations, no heavy UI, just real-time field plots based on the modes you choose.
+# Waveguide Field Visualizer  
 
-✨ Features
-📡 Waveguide Types
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)
+![Made with Love](https://img.shields.io/badge/Made%20with-%F0%9F%92%96-pink.svg)
 
-TEM Mode
-Simple visual representation of E and H fields in a coaxial-like geometry.
+A lightweight Streamlit app for visualizing electromagnetic field patterns inside **TEM**, **Rectangular (TE/TM)**, and **Circular (TE/TM)** waveguides.  
+The goal is simple: give students and engineers a clean, quick way to explore field modes without MATLAB or long scripts.
 
-Rectangular Waveguide (TE/TM)
-Visualizes field patterns for any (m, n) mode using streamplots.
+---
 
-Circular Waveguide (TE/TM)
-Computes patterns using Bessel function roots and displays the corresponding E/H fields.
+## Features
 
-⚡ Real-time Visualization
+### Waveguide Types Supported
+- **TEM Mode** — simplistic coaxial-like E/H field plots  
+- **Rectangular Waveguide (TE/TM)** — any (m, n) mode via streamplots  
+- **Circular Waveguide (TE/TM)** — computed using Bessel function roots  
 
-Adjust mode indices and geometry in the sidebar and see the fields update instantly.
+### Real-Time Interaction
+Change geometry or mode indices in the sidebar → fields update instantly.
 
-🎯 Minimal, student-friendly UI
+### Minimal UI
+No animations, uploads, downloads, or clutter. Just the physics.
 
-No distractions — just sliders and clean plots.
+---
 
-🖼️ Preview
-
-(Add screenshots or GIFs here)
-
-/screenshots
-    ├── rectangular.png
-    ├── circular.png
-    └── tem.png
-
-🛠️ Tech Stack
-
-Python 3.10+
-
-Streamlit — UI framework
-
-NumPy — numerical math
-
-SciPy — Bessel functions (circular waveguide modes)
-
-Matplotlib — plotting engine
-
-📦 Installation
-
-Clone the repo:
-
-git clone https://github.com/yourusername/waveguide-visualizer
-cd waveguide-visualizer
+## Preview
 
 
-Install dependencies:
 
-pip install -r requirements.txt
-
-
-Run the app:
-
-streamlit run waveguide_app.py
-
-📄 requirements.txt
-streamlit
-numpy
-scipy
-matplotlib
-pandas
-
-🚀 Deployment Options
-1️⃣ Streamlit Cloud (easiest)
-
-Push your code to GitHub
-
-Go to https://share.streamlit.io
-
-Deploy the repo
-
-Choose waveguide_app.py as the entry point
-
-Your app is instantly live.
-
-2️⃣ Render.com
-
-Supports long-running Python web apps.
-Start command:
-
-streamlit run waveguide_app.py --server.port $PORT --server.address 0.0.0.0
-
-3️⃣ HuggingFace Spaces
-
-Select Streamlit as the space template and upload your code.
-
-📘 About This Project
-
-I built this tool because plotting waveguide modes manually is tedious and the existing online visualizers are often too slow or too complicated.
-This app aims to be:
-
-simple enough for students,
-
-accurate enough for assignments, and
-
-clean enough for quick conceptual visualization.
-
-If you find it useful or want more modes/features, feel free to open an issue or PR!
