@@ -27,6 +27,10 @@ No animations, uploads, downloads, or clutter. Just the physics.
 ---
 
 ## Preview
+<img width="2554" height="1198" alt="image" src="https://github.com/user-attachments/assets/41613f75-7843-46ba-9306-1380fa9a180b" />
+<img width="2434" height="1210" alt="image" src="https://github.com/user-attachments/assets/282c549b-1292-415d-ab02-5b3ecb3a2920" />
+
+
 
 
 
